@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 16px;
+    background:	#008080;
+    color: #ffff;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+}
+
+.titulo{
+    font-size: 1em;
+    text-align: left;
+    margin-left:  5vw;
+    margin-bottom: 1em;
+    margin: 1em 0 1em 5vw;
+}
+
+.caixa{
+    background: rgba(255,255,255,0.6);
+    width: 90vw;
+    padding: 2em 0;
+    margin: 0 auto;
+    border-radius: 6px;
+
+}
+
+.comecar{
+    background: #ffff;
+    border: none;
+    border-bottom: 5px solid #CCCCCC;
+    border-radius: 6px;
+    padding: 1em 2em;
+    text-transform:uppercase;
+    color: #008080;
+}
