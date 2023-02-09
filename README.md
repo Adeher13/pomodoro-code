@@ -8,7 +8,7 @@
 - [x] Disparar uma aviso no fim do cronometro
 - [x] Criar a lógica de contador de segundos
 - [x] Calcular o tempo restante no cronometro
-- [ ] Criar o componente do cronometro na tela
+- [x] Criar o componente do cronometro na tela
 - [ ] Exibir visualmente o tempo restante no componente do cronometro
 - [ ] Ter uma outra ativação do cronometro, com 5min, para o intervalo
 - [ ] Exibir uma contagem de pomodoros
@@ -27,3 +27,4 @@
 - [ ] Extensão do navegador
 - [ ] Alterar o tema
 - [ ] Função de esconder o timer
+- [ ] Acessibilidade para o cronometro com a tag timer <time>
