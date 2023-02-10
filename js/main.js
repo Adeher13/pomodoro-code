@@ -1,5 +1,5 @@
 const milissegundosPomodoro = 4000   //Estamos usando 4 segundos para testes.
-const milissegundosIntervalo = 5000
+const milissegundosIntervalo = 300000
 const disparador = document.querySelector('#disparador')
 const cronometro = document.querySelector('#cronometro')
 let milissegundosRestantes =  0
@@ -27,8 +27,12 @@ function contadorDeSegundos(){
       console.log("O seu tempo  de produção do pomodoro acabou. Vá descansar!")
       if (disparador.textContent == "Começar"){
          disparador.textContent = "Intervalo"
+         document.querySelector ('body').style.background = "#4682B4"
+         disparador.style.color = "#4682B4"
       }else{
          disparador.textContent = "Começar"
+         document.querySelector ('body').style.background = "#008080"
+         disparador.style.color = "#008080"
       }
 
       clearInterval(contador)
