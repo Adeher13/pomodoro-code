@@ -1,55 +1,58 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     font-size: 16px;
-    background:	#008080;
-    color: #ffff;
+    background: #C84949;
+    color: #FFFFFF;
     font-family: sans-serif;
     text-align: center;
     padding: 0;
 }
 
-.titulo{
-    font-size: 1em;
-    text-align: left;
-    margin-left:  5vw;
-    margin-bottom: 1em;
-    margin: 1em 0 1em 5vw;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 5vw;
 }
 
-.caixa{
-    background: rgba(255,255,255,0.6);
+.titulo {
+    font-size: 1em;
+    text-align: left;
+}
+
+.caixa {
+    background: rgba(255,255,255,0.4);
     width: 90vw;
     padding: 2em 0;
     margin: 0 auto;
     border-radius: 6px;
-
 }
 
-.comecar{
-    background: #ffff;
+.comecar {
+    background: #FFFFFF;
     border: none;
-    border-bottom: 5px solid #CCCCCC;
+    border-bottom: 3px solid #CCCCCC;
     border-radius: 6px;
     padding: 1em 2em;
-    text-transform:uppercase;
-    color: #008080;
+    text-transform: uppercase;
+    color: #C84949;
     cursor: pointer;
 }
 
-.cronometro{
+.cronometro {
     font-size: 5em;
     margin: 0 0 1rem;
     font-weight: 300;
 }
 
-.historico{
+.historico {
     margin: 1em;
 }
 
 .historico::before {
-
-     content: "#";
+    content: "#";
 }
